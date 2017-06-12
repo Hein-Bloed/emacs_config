@@ -83,7 +83,7 @@
   :ensure t
   :config
   (evil-leader/set-key
-	"rr" 'rtags-rename-symbol))
+	"rtr" 'rtags-rename-symbol))
 
  ;install cmake-ide for setting up rtags
 (use-package helm-rtags

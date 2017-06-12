@@ -32,6 +32,7 @@
       "wh"    'split-window-horizontally
       "wv"    'split-window-vertically
       "ww"    'other-window
+	  "wo"    'delete-other-windows
 
       ;;files
       "fs"    'save-buffer

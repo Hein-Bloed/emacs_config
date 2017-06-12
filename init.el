@@ -48,6 +48,7 @@
 (load (local-file-name "inits/config"))
 (load (local-file-name "inits/undotree"))
 (load (local-file-name "inits/rainbow.el"))
+(load (local-file-name "inits/smartparens.el"))
 
 
 ;;custom.el bullshit

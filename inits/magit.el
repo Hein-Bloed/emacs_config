@@ -9,7 +9,8 @@
   (setq async-bytecomp-allowed-packages nil)
   
   (evil-leader/set-key
-	"ms"    'magit-status))
+	"gs"    'magit-status
+	"gp"    'magit-push))
 
 (use-package magithub
   :defer t
