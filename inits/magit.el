@@ -5,9 +5,9 @@
   :ensure t
   :commands magit-status
   :config
-
   (setq async-bytecomp-allowed-packages nil)
-  
+
+  :init
   (evil-leader/set-key
 	"gs"    'magit-status
 	"gp"    'magit-push))
