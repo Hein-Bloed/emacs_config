@@ -24,6 +24,15 @@
     :init
     (global-evil-leader-mode)
     :config
+  (defun indent-buffer ()
+    "Indent an entire buffer using the default intenting scheme."
+    (interactive)
+  (point-to-register 'o)
+  (delete-trailing-whitespace)
+  (indent-region (point-min) (point-max) nil)
+  (untabify (point-min) (point-max))
+  (jump-to-register 'o))
+
     (evil-leader/set-leader "<SPC>")
     (evil-leader/set-key
       
@@ -41,6 +50,7 @@
 
       ;;shit
       "cc"    'comment-line
+	  "TAB"    'indent-buffer
 
       ;;exit emacs
       "qq"    'save-buffers-kill-terminal
@@ -49,4 +59,6 @@
       "bx"    'eval-buffer
       "bf"    'switch-to-buffer
       "bd"    'kill-this-buffer
+
+
 )))

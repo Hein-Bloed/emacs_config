@@ -42,14 +42,14 @@
 (load (local-file-name "inits/cpp"))
 ;(load (local-file-name "inits/pdftools.el"))
 (load (local-file-name "inits/elisp"))
-;(load (local-file-name "inits/haskell"))
+(load (local-file-name "inits/haskell"))
 (load (local-file-name "inits/neotree"))
 (load (local-file-name "inits/python"))
 (load (local-file-name "inits/config"))
 (load (local-file-name "inits/undotree"))
 (load (local-file-name "inits/rainbow.el"))
 (load (local-file-name "inits/smartparens.el"))
-
+(load (local-file-name "inits/member-functions.el"))
 
 ;;custom.el bullshit
 (setq custom-file (local-file-name "custom.el"))

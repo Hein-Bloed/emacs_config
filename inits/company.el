@@ -15,4 +15,10 @@
   (delete 'company-css company-backends)
   (delete 'company-semantic company-backends))
 
+
+(define-key company-active-map [tab] 'company-complete-common-or-cycle)
+
+
+
+
 ;;;company.el ends here
