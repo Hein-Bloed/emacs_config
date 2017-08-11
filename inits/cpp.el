@@ -95,10 +95,10 @@ unless return was pressed outside the comment"
                                (local-set-key (kbd "<RET>") 'my-doxygen-return))))
 
                                         ;install company-irony
-(use-package company-irony
+(use-package company-rtags
   :ensure t
   :config
-  (add-to-list 'company-backends 'company-irony))
+  (add-to-list 'company-backends 'company-rtags))
 
                                         ;install this for header completion
 (use-package company-irony-c-headers
