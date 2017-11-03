@@ -52,6 +52,8 @@
       "cc"    'comment-line
 	  "TAB"    'indent-buffer
 
+	  "gl"    'goto-line
+
       ;;exit emacs
       "qq"    'save-buffers-kill-terminal
 	  

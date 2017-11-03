@@ -49,6 +49,8 @@
 (load (local-file-name "inits/undotree"))
 (load (local-file-name "inits/rainbow.el"))
 (load (local-file-name "inits/smartparens.el"))
+(load (local-file-name "inits/markdown.el"))
+
 
 ;;custom.el bullshit
 (setq custom-file (local-file-name "custom.el"))
