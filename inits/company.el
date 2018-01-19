@@ -3,7 +3,8 @@
 (use-package company
   :ensure t
   :defer t
-  :init (global-company-mode)
+  :init
+  (global-company-mode)
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 1)
   (setq company-auto-complete nil)

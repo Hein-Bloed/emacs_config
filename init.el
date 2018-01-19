@@ -27,6 +27,11 @@
 
 (load (local-file-name "inits/evil.el"))
 (load (local-file-name "inits/helm.el"))
+(load (local-file-name "inits/lsp.el"))
+(load (local-file-name "inits/cquery.el"))
+(load (local-file-name "inits/cpp-style.el"))
+(load (local-file-name "inits/my-return.el"))
+(load (local-file-name "inits/cmake.el"))
 
 ;;load the rest of this motherfucker
 (load (local-file-name "inits/ui-config"))
@@ -39,7 +44,6 @@
 (load (local-file-name "inits/company"))
 (load (local-file-name "inits/projectile"))
 (load (local-file-name "inits/magit"))
-(load (local-file-name "inits/cpp"))
 ;(load (local-file-name "inits/pdftools.el"))
 (load (local-file-name "inits/elisp"))
 (load (local-file-name "inits/haskell"))
