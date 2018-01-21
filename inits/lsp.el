@@ -43,8 +43,7 @@
   (add-hook 'lsp-mode-hook 'lsp-ui-mode)
   (setq lsp-ui-flycheck-enable t)
   (setq lsp-ui-peek-enable t)
-  (setq lsp-ui-sideline-show-symbol nil)
-  (setq lsp-ui-sideline-enable t)
-  (setq lsp-ui-imenu-enable t))
+  (setq lsp-ui-sideline-show-symbol t)
+  (setq lsp-ui-sideline-enable t))
 
 ;;; lsp.el ends here
