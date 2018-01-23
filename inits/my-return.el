@@ -8,7 +8,6 @@
 ;;; Commentary:
 
 ;;; Code:
-(require 'smartparens)
 
 (defun my-doxygen-return ()
   "Advanced for Javadoc multiline comments.
