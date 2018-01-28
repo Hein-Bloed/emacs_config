@@ -32,7 +32,7 @@
   :after company lsp-mode
   :config
   (push 'company-lsp company-backends)
-  (setq company-lsp-cache-candidates nil)
+  (setq company-lsp-cache-candidates t)
   (setq company-lsp-async t)
   (setq company-lsp-enable-snippet t))
 
@@ -44,6 +44,6 @@
   (setq lsp-ui-flycheck-enable t)
   (setq lsp-ui-peek-enable t)
   (setq lsp-ui-sideline-show-symbol t)
-  (setq lsp-ui-sideline-enable t))
+  (setq lsp-ui-sideline-enable nil))
 
 ;;; lsp.el ends here

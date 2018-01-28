@@ -1,6 +1,14 @@
-;; init.el ---
+;;; init.el --- this file loads all the init files of my config  -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2018
+
+;; Author:  <lukas@GentooPad>
+;; Keywords: tools, tools, abbrev
+
+;;; Commentary:
 
 
+;;; Code:
 
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
@@ -52,7 +60,7 @@
 (load (local-file-name "inits/config"))
 (load (local-file-name "inits/undotree"))
 (load (local-file-name "inits/rainbow.el"))
-;;(load (local-file-name "inits/smartparens.el"))
+(load (local-file-name "inits/smartparens.el"))
 (load (local-file-name "inits/markdown.el"))
 
 
