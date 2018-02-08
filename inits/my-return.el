@@ -8,7 +8,8 @@
 ;;; Commentary:
 
 ;;; Code:
-(require 'smartparens)
+(require 'smartparens (concat user-emacs-directory
+        (convert-standard-filename "inits/smartparens.el")))
 
 (defun my-doxygen-return ()
   "Advanced for Javadoc multiline comments.

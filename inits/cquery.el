@@ -10,8 +10,7 @@
 ;;; Code:
 
 (use-package cquery
-  :load-path
-  "/home/lukas/emacs-cquery/"
+  :ensure t
   :config
   (setq cquery-executable "/home/lukas/Binarys/cquery")
   (add-hook 'c-mode-hook 'lsp-cquery-enable)

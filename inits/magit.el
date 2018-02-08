@@ -1,4 +1,13 @@
-;;;magit.el
+;;; magit.el --- provides the magit package          -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2018
+
+;; Author: ;;;magit.el <lukas@GentooPad>
+;; Keywords: tools, languages
+
+;;; Commentary:
+;; this file adds the magit package to my Emacs config
+;;; Code:
 
 
 (use-package magit
@@ -12,8 +21,5 @@
 	"gs"    'magit-status
 	"gp"    'magit-push))
 
-(use-package magithub
-  :defer t
-  :ensure t)
-
-;;magit.el ends here
+(provide 'magit)
+;;; magit.el ends here
